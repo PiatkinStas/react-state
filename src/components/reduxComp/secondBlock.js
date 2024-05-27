@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { square } from './functionSlice';
+import { square } from '../reduxComp/functionSlice';
 
 const SecondBlock = () => {
   const nameSecondBlock = useSelector((state) => state.arr.value);

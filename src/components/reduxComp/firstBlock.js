@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { up, down } from './newSlice';
+import { up, down } from '../slice/newSlice';
 
 const ArrStateComponet = () => {
   const arrState = useSelector((state) => state.arr.value);
